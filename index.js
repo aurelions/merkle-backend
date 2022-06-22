@@ -7,7 +7,7 @@ const merkletreejs = require('./merkle_tree.js');
 
 const app = express()
 app.use(cors())
-const port = 3000
+const port = 9000
 
 app.get('/', (req, res) => {
 
