@@ -9,7 +9,7 @@ const app = express()
 app.use(cors())
 const port = 9000
 
-app.get('merkle-backend-3yxtjcshh-aurelions.vercel.app/', (req, res) => {
+app.get('https://merkle-backend.vercel.app//', (req, res) => {
 
     //if Query does not contain Address fail
     try {
@@ -41,7 +41,7 @@ app.get('merkle-backend-3yxtjcshh-aurelions.vercel.app/', (req, res) => {
 
 //add 0x before you use the merkleRoot in the contract
 //it indicates the hex-encoding
-app.get('merkle-backend-3yxtjcshh-aurelions.vercel.app/root', (req, res) => {
+app.get('https://merkle-backend.vercel.app//root', (req, res) => {
 
     try {
         //get MerkleRoot 
